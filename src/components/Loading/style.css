@@ -1,0 +1,26 @@
+.loading {
+  z-index: 1000;
+  background: #948d8d70;
+  text-align: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  top: 0;
+  left:0;
+  display: flex;
+  justify-content: center;}
+
+  .spinner {
+    border: 0.2em solid transparent;
+    border-radius: 50%;
+    border-top: 0.2em solid #e6a6ca;
+    width: 4em;
+    height: 4em;
+    animation: spin 800ms linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
