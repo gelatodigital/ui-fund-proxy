@@ -326,7 +326,7 @@ const App = () => {
                   </p>
                   <p style={{ fontWeight: "600" }}>Balance:</p>
                   <p className="highlight">
-                    {signerBalance} ETH
+                    {signerBalance} 
                     <span style={{ position: "relative", top: "5px" }}>
                       <BiRefresh
                         color="white"
@@ -363,7 +363,7 @@ const App = () => {
 
                       <p style={{ fontWeight: "600" }}>Balance:</p>
                       <p className="highlight">
-                        {dedicatedMsgSender.balance} ETH
+                        {dedicatedMsgSender.balance} 
                         <span style={{ position: "relative", top: "5px" }}>
                           <BiRefresh
                             color="white"

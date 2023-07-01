@@ -8,3 +8,5 @@ The dedicatedMsgSender is the proxy that forward all Web3 Functions executions, 
 
 ## Web3 App
 [https://fund-proxy.web.app/](https://fund-proxy.web.app/)
+
+   <img src="docs/fund-proxy.png" width="500"/>
