@@ -99,6 +99,7 @@ const App = () => {
   const onUpdate = async (value: number, action: number) => {
     switch (action) {
       case 0:
+        console.log(value)
         setDepositAmount(value);
         break;
       case 1:
